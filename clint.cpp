@@ -6,10 +6,10 @@ int main(int argc, char *argv[]) {
 	
 	string name = "";
 	
-	cout << "Enter your name: ";
+	cout << "Please Enter your desired name: ";
 	cin >> name; 
 	
-	cout << "(While relaxing in a coffee shop, a beautiful girboy catches your eye)" << endl;
+	cout << "" << endl;
 	cout << endl;
 	cout << name << ": ..." << endl;
 	cout << "1 | (talk to her)" << endl;
