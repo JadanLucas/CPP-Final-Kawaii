@@ -1,4 +1,4 @@
-1#"\033[1;92mHello, I am your Narrator! I will assist you towards your special moment with a beauty of a woman.\033[0m\n"
+1# Hello, I am Amazon Alexa.
 2#gjmvmjbgi
 3#23000
 4#12000
