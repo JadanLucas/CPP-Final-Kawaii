@@ -18,6 +18,8 @@ int main(int argc, char *argv[]) {
 	string ans1  = "";
 	string amazon = "";
 	
+	//CHAPTER ONE
+	
 	//Name Choice
 	cout << "Please Enter your desired name: ";
 	cin  >> name; 
@@ -35,22 +37,32 @@ int main(int argc, char *argv[]) {
 	//Response of Choice and answer from Amazon
 	inFile.open("Amazon.txt");
 	if (inFile.is_open()) {
-		if (ans1 == "1"){
-		cout << "\033[1;96m" << name << "\033[1;96m:\033[0m" << " Hey.. I'm " << name << ". Nice to meet you." << endl;
-		getline(inFile, amazon, '#');
-		getline(inFile, amazon);
-			cout << amazon << endl;
-				}	
-		}	
-		else if (ans1 != "2"){
-		cout << "\033[1;92mHey! Why are you leaving? you'll never find love like this!\033[0m\n" << endl;
-		cout << endl;
-		cout << "Game Over" << endl;
+		while (ans1 != "1" && ans1 != "2"){
+			if (ans1 == "1"){
+			cout << "\033[1;96m" << name << "\033[1;96m:\033[0m" << " Hey.. I'm " << name << ". Nice to meet you." << endl;
+			getline(inFile, amazon, '#');
+			getline(inFile, amazon);
+				cout << amazon << endl;
+				}			
+			else if (ans1 == "2"){
+			cout << "\033[1;92mHey! Why are you leaving? you'll never find love like this!\033[0m\n" << endl;
+			cout << endl;
+			cout << "Game Over" << endl;
+		
+			return 0;
+				}
+			else if (ans1 != "1" && ans1 != "2"){
+				cout << "INVALID ANSWER" << endl;
+				cin >> ans1;
+			}
+		}
 	}
 		else {
 		cout << "File did not open correctly" << endl;
 		cout << endl;
 		cout << "Game Over" << endl;
+		
+		return 0;
 		}
 	
 	
