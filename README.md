@@ -1,2 +1,3 @@
-# CPP-Final-Kawaii
-The all mighty game of Amazon Alexa the queen beauty of hotness of kawaiiness.
+# Amazon Alexa
+
+`Amazon Alexa` is a dating simulator using string sequential file access points while getting further into the gameplay.  
