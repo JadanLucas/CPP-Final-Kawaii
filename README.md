@@ -7,8 +7,10 @@
 
 The code uses a sequence of `if` statements to complete the choice you have given to the code before and with the answer you have provided it will go into the `sequential file access point` or "Amazon.txt" and will output the access point that is identical to you answer.
 
+#Contributers
 Trayce and Jadan was the contributers towards this project.
 
+#Installation
 With this Project you will need to have the "Amazon.txt" text file for the sequential file access point.
 
 
