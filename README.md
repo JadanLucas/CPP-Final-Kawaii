@@ -14,5 +14,4 @@ Trayce and Jadan was the contributers towards this project.
 With this Project you will need to have the "Amazon.txt" text file for the sequential file access point.
 
 # Running Code
-<img sr+"https://user-images.githubusercontent.com/31140912/40325661-eac3eb84-5cf9-11e8-9ae9-0e4ff6ce5190.png"/>
 <img src="codeRun.png"/>
